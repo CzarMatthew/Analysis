@@ -18,16 +18,18 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: Matthew Czar's COMP 11O Course Evaluations
+email: mczar@unc.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+ This website analyzes COMP 110 survey data to explore how effective lectures 
+ are compared to other parts of the course. Using data visualizations, it looks 
+ at how lecture effectiveness relates to student interest, value, and engagement. 
+ The goal is to determine whether adding more interactive elements, like in-class poll 
+ questions, could improve the learning experience.
+
+baseurl: "/Analysis" # the subpath of your site, e.g. /blog
+url: "https://CzarMatthew.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  CzarMatthew
 
 # Build settings
 # Build settings
